@@ -1,0 +1,86 @@
+body {
+  font-family: Arial;
+}
+.add-task {
+  width: 35rem;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bolder;
+  margin: 2rem auto;
+}
+
+.container {
+  width: 35rem;
+  text-align: center;
+  background-color: rgb(30, 78, 96);
+  padding: 1em;
+  margin-top: 5rem;
+  margin: 0rem auto;
+  border-radius: 0.2rem;
+}
+
+
+.input-task {
+  padding: 0.7em;
+  width: 15rem;
+  border-radius: 0.4rem;
+  border: none;
+}
+
+.input-date {
+  padding: 0.7em;
+  border-radius: 0.4rem;
+  border: none;
+  margin-left: 1rem;
+}
+
+.button2, .button1 {
+  margin-left: 1rem;
+  border: none;
+  height: 2.3rem;
+  width: 5rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.button1 {
+  width: 5rem;
+}
+
+
+.button2, .button1:hover {
+  opacity: 0.9;
+}
+
+.container1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  border-radius: 0.2rem;
+  width: 35rem;
+  margin: 1em auto;
+  background-color: rgb(142, 190, 218);
+  display: grid;
+  grid-template-columns: 1fr 19em;
+  align-items: center;
+  gap: 9em;
+  text-align: center;
+  padding: 1rem;
+}
+
+.para-button {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1em;;
+  
+}
+
+.edit-remove-button {
+  display: flex;
+  align-items: center;
+}
+
