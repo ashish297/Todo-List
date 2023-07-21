@@ -48,7 +48,6 @@ body {
   width: 5rem;
 }
 
-
 .button2, .button1:hover {
   opacity: 0.9;
 }
@@ -84,3 +83,7 @@ body {
   align-items: center;
 }
 
+.task-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
