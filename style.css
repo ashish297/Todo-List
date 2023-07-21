@@ -48,7 +48,7 @@ body {
   width: 5rem;
 }
 
-.button2, .button1:hover {
+.button2:hover, .button1:hover {
   opacity: 0.9;
 }
 
